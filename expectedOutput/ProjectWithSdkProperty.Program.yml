@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProjectWithSdkProperty.Program
+  commentId: T:ProjectWithSdkProperty.Program
+  id: Program
+  parent: ProjectWithSdkProperty
+  children:
+  - ProjectWithSdkProperty.Program.Main(System.String[])
+  langs:
+  - csharp
+  - vb
+  name: Program
+  nameWithType: Program
+  fullName: ProjectWithSdkProperty.Program
+  type: Class
+  source:
+    id: Program
+    path: E:\Repo2\docfx.test\test-projects\ProjectWithSdkProperty\Program.cs
+    startLine: 4
+  assemblies:
+  - ProjectWithSdkProperty
+  namespace: ProjectWithSdkProperty
+  syntax:
+    content: 'public class Program : object'
+    content.vb: >-
+      Public Class Program
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: ProjectWithSdkProperty.Program.Main(System.String[])
+  commentId: M:ProjectWithSdkProperty.Program.Main(System.String[])
+  id: Main(System.String[])
+  parent: ProjectWithSdkProperty.Program
+  langs:
+  - csharp
+  - vb
+  name: Main(String[])
+  nameWithType: Program.Main(String[])
+  fullName: ProjectWithSdkProperty.Program.Main(System.String[])
+  type: Method
+  source:
+    id: Main
+    path: E:\Repo2\docfx.test\test-projects\ProjectWithSdkProperty\Program.cs
+    startLine: 6
+  assemblies:
+  - ProjectWithSdkProperty
+  namespace: ProjectWithSdkProperty
+  syntax:
+    content: public static void Main(string[] args)
+    parameters:
+    - id: args
+      type: System.String[]
+    content.vb: Public Shared Sub Main(args As String())
+  overload: ProjectWithSdkProperty.Program.Main*
+  nameWithType.vb: Program.Main(String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: ProjectWithSdkProperty.Program.Main(System.String())
+  name.vb: Main(String())
+references:
+- uid: ProjectWithSdkProperty
+  commentId: N:ProjectWithSdkProperty
+  isExternal: false
+  name: ProjectWithSdkProperty
+  nameWithType: ProjectWithSdkProperty
+  fullName: ProjectWithSdkProperty
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProjectWithSdkProperty.Program.Main*
+  commentId: Overload:ProjectWithSdkProperty.Program.Main
+  isExternal: false
+  name: Main
+  nameWithType: Program.Main
+  fullName: ProjectWithSdkProperty.Program.Main
+- uid: System.String[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

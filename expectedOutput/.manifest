@@ -1,0 +1,21 @@
+{
+  "csharp_console": "csharp_console.yml",
+  "csharp_console.Program": "csharp_console.Program.yml",
+  "csharp_console.Program.Func": "csharp_console.Program.yml",
+  "HelloWorld": "HelloWorld.yml",
+  "HelloWorld.Program": "HelloWorld.Program.yml",
+  "HelloWorld.Program.Main(System.String[])": "HelloWorld.Program.yml",
+  "HelloWorldSlim": "HelloWorldSlim.yml",
+  "HelloWorldSlim.Program": "HelloWorldSlim.Program.yml",
+  "HelloWorldSlim.Program.Main(System.String[])": "HelloWorldSlim.Program.yml",
+  "Lib": "Lib.yml",
+  "Lib.Class1": "Lib.Class1.yml",
+  "ProjectWithSdkProperty": "ProjectWithSdkProperty.yml",
+  "ProjectWithSdkProperty.Program": "ProjectWithSdkProperty.Program.yml",
+  "ProjectWithSdkProperty.Program.Main(System.String[])": "ProjectWithSdkProperty.Program.yml",
+  "TestLibrary": "TestLibrary.yml",
+  "TestLibrary.Helper": "TestLibrary.Helper.yml",
+  "TestLibrary.Helper.SayHi": "TestLibrary.Helper.yml",
+  "TestNs": "TestNs.yml",
+  "TestNs.TestClass": "TestNs.TestClass.yml"
+}
