@@ -1,0 +1,1 @@
+Test assets for [DocFX](https://github.com/dotnet/docfx)
