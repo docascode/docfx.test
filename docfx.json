@@ -1,0 +1,15 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "test-projects/**.csproj"
+          ]
+        }
+      ],
+      "dest": "obj/api",
+      "disableGitFeatures": true
+    }
+  ]
+}

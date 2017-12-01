@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: csharp_console
+  commentId: N:csharp_console
+  id: csharp_console
+  children:
+  - csharp_console.Program
+  langs:
+  - csharp
+  - vb
+  name: csharp_console
+  nameWithType: csharp_console
+  fullName: csharp_console
+  type: Namespace
+  assemblies:
+  - csharp-console
+references:
+- uid: csharp_console.Program
+  commentId: T:csharp_console.Program
+  isExternal: false
+  name: Program
+  nameWithType: Program
+  fullName: csharp_console.Program

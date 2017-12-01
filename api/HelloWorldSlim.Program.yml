@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: HelloWorldSlim.Program
+  commentId: T:HelloWorldSlim.Program
+  id: Program
+  parent: HelloWorldSlim
+  children:
+  - HelloWorldSlim.Program.Main(System.String[])
+  langs:
+  - csharp
+  - vb
+  name: Program
+  nameWithType: Program
+  fullName: HelloWorldSlim.Program
+  type: Class
+  source:
+    id: Program
+    path: E:\Repo2\docfx.test\test-projects\HelloWorldSlim\Program.cs
+    startLine: 4
+  assemblies:
+  - HelloWorldSlim
+  namespace: HelloWorldSlim
+  syntax:
+    content: 'public class Program : object'
+    content.vb: >-
+      Public Class Program
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: HelloWorldSlim.Program.Main(System.String[])
+  commentId: M:HelloWorldSlim.Program.Main(System.String[])
+  id: Main(System.String[])
+  parent: HelloWorldSlim.Program
+  langs:
+  - csharp
+  - vb
+  name: Main(String[])
+  nameWithType: Program.Main(String[])
+  fullName: HelloWorldSlim.Program.Main(System.String[])
+  type: Method
+  source:
+    id: Main
+    path: E:\Repo2\docfx.test\test-projects\HelloWorldSlim\Program.cs
+    startLine: 6
+  assemblies:
+  - HelloWorldSlim
+  namespace: HelloWorldSlim
+  syntax:
+    content: public static void Main(string[] args)
+    parameters:
+    - id: args
+      type: System.String[]
+    content.vb: Public Shared Sub Main(args As String())
+  overload: HelloWorldSlim.Program.Main*
+  nameWithType.vb: Program.Main(String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: HelloWorldSlim.Program.Main(System.String())
+  name.vb: Main(String())
+references:
+- uid: HelloWorldSlim
+  commentId: N:HelloWorldSlim
+  isExternal: false
+  name: HelloWorldSlim
+  nameWithType: HelloWorldSlim
+  fullName: HelloWorldSlim
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: HelloWorldSlim.Program.Main*
+  commentId: Overload:HelloWorldSlim.Program.Main
+  isExternal: false
+  name: Main
+  nameWithType: Program.Main
+  fullName: HelloWorldSlim.Program.Main
+- uid: System.String[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

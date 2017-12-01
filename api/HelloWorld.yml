@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: HelloWorld
+  commentId: N:HelloWorld
+  id: HelloWorld
+  children:
+  - HelloWorld.Program
+  langs:
+  - csharp
+  - vb
+  name: HelloWorld
+  nameWithType: HelloWorld
+  fullName: HelloWorld
+  type: Namespace
+  assemblies:
+  - HelloWorld
+references:
+- uid: HelloWorld.Program
+  commentId: T:HelloWorld.Program
+  isExternal: false
+  name: Program
+  nameWithType: Program
+  fullName: HelloWorld.Program

@@ -1,6 +1,6 @@
 using System;
 
-namespace ConsoleApplication
+namespace HelloWorldSlim
 {
     public class Program
     {
