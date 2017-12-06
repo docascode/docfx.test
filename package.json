@@ -1,0 +1,25 @@
+{
+  "name": "docfx.test",
+  "version": "1.0.0",
+  "description": "Test repo for docfx",
+  "main": "build/main.js",
+  "scripts": {
+    "test": "dotnet restore & node build/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/docascode/docfx.test.git"
+  },
+  "keywords": [
+    "docfx.test"
+  ],
+  "author": "Liangying Wei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/docascode/docfx.test/issues"
+  },
+  "homepage": "https://github.com/docascode/docfx.test#readme",
+  "devDependencies": {
+    "child_process": "^1.0.2"
+  }
+}
