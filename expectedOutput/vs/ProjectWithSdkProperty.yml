@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProjectWithSdkProperty
+  commentId: N:ProjectWithSdkProperty
+  id: ProjectWithSdkProperty
+  children:
+  - ProjectWithSdkProperty.Program
+  langs:
+  - csharp
+  - vb
+  name: ProjectWithSdkProperty
+  nameWithType: ProjectWithSdkProperty
+  fullName: ProjectWithSdkProperty
+  type: Namespace
+  assemblies:
+  - ProjectWithSdkProperty
+references:
+- uid: ProjectWithSdkProperty.Program
+  commentId: T:ProjectWithSdkProperty.Program
+  isExternal: false
+  name: Program
+  nameWithType: Program
+  fullName: ProjectWithSdkProperty.Program

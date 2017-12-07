@@ -1,9 +1,16 @@
-var docfx = require('./docfx')();
-var compare = require('./compare')();
+const docfx = require('./docfx')();
+const compare = require('./compare')();
+var env = 'vs';
 
-var underMono = process.argv.length > 2 ?
-process.argv[2] === 'mono' : false;
+if (process.argv.length > 2) {
+    if (process.argv[2] === 'mono') {
+        env = 'mono';
+    } else if (process.argv[2] == 'netcore') {
+        env = 'netcore';
+    }
+}
 
-docfx.run(underMono, function(){
-    compare.compareFolder('expectedOutput', 'obj/api');
+docfx.run(env, function(){
+    var expected = env === 'netcore' ? 'expectedOutput/netcore' : 'expectedOutput/vs';
+    compare.compareFolder(expected, 'obj/api');
 });

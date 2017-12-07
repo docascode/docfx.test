@@ -1,0 +1,36 @@
+### YamlMime:TableOfContent
+- uid: csharp_console
+  name: csharp_console
+  items:
+  - uid: csharp_console.Program
+    name: Program
+- uid: HelloWorld
+  name: HelloWorld
+  items:
+  - uid: HelloWorld.Program
+    name: Program
+- uid: HelloWorldSlim
+  name: HelloWorldSlim
+  items:
+  - uid: HelloWorldSlim.Program
+    name: Program
+- uid: Lib
+  name: Lib
+  items:
+  - uid: Lib.Class1
+    name: Class1
+- uid: ProjectWithSdkProperty
+  name: ProjectWithSdkProperty
+  items:
+  - uid: ProjectWithSdkProperty.Program
+    name: Program
+- uid: TestLibrary
+  name: TestLibrary
+  items:
+  - uid: TestLibrary.Helper
+    name: Helper
+- uid: TestNs
+  name: TestNs
+  items:
+  - uid: TestNs.TestClass
+    name: TestClass

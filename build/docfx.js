@@ -1,7 +1,7 @@
 const { exec } = require('child_process');
 module.exports = function () {
     return {
-        run: function (underMono, callback) {
+        run: function (env, callback) {
             exec('"nuget" install docfx.console', function (err, data) {
                 if (err) {
                     console.error(err);
@@ -15,8 +15,9 @@ module.exports = function () {
                 }
                 var version = matched[1];
                 var path = '"' + version + '/tools/docfx.exe"';
-                // always run under mono?
-                var executeString =(underMono? "mono ": "") + path + " metadata -f";
+                const underMono = env === 'mono';
+                const docfxJson = env === 'netcore' ? 'docfx-netcore.json' : 'docfx.json';
+                var executeString =(underMono? "mono ": "") + path + " metadata -f " + docfxJson;
                 runDocfx(executeString, callback);
             })
         }

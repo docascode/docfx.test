@@ -1,0 +1,16 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "test-projects/**.csproj"
+          ],
+          "exclude": "test-projects/CsProjectSample01/**"
+        }
+      ],
+      "dest": "obj/api",
+      "disableGitFeatures": true
+    }
+  ]
+}
