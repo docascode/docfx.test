@@ -16,7 +16,7 @@ module.exports = function () {
                 var version = matched[1];
                 var path = '"' + version + '/tools/docfx.exe"';
                 // always run under mono?
-                var executeString =(underMono? "mono ": "") + path + " metadata";
+                var executeString =(underMono? "mono ": "") + path + " metadata -f";
                 runDocfx(executeString, callback);
             })
         }
