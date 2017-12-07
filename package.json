@@ -4,7 +4,9 @@
   "description": "Test repo for docfx",
   "main": "build/main.js",
   "scripts": {
-    "test": "node build/main.js"
+    "mono": "node build/main.js mono",
+    "netcore": "node build/main.js netcore",
+    "vs": "node build/main.js"
   },
   "repository": {
     "type": "git",
