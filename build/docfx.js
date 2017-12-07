@@ -1,8 +1,9 @@
 const { exec } = require('child_process');
-module.exports = function () {
+module.exports = function (nugetPath) {
     return {
         run: function (env, callback) {
-            exec('"nuget" install docfx.console', function (err, data) {
+            nugetPath = nugetPath || 'nuget';
+            exec('nuget install docfx.console', function (err, data) {
                 if (err) {
                     console.error(err);
                     return;

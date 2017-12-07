@@ -1,4 +1,3 @@
-const docfx = require('./docfx')();
 const compare = require('./compare')();
 var env = 'vs';
 
@@ -9,6 +8,13 @@ if (process.argv.length > 2) {
         env = 'netcore';
     }
 }
+
+var nugetPath = '';
+if (process.argv.length > 3) {
+    nugetPath = process.argv[3];
+}
+
+const docfx = require('./docfx')(nugetPath);
 
 docfx.run(env, function(){
     var expected = env === 'netcore' ? 'expectedOutput/netcore' : 'expectedOutput/vs';
