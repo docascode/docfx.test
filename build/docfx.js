@@ -3,7 +3,7 @@ module.exports = function (nugetPath) {
     return {
         run: function (env, callback) {
             nugetPath = nugetPath || 'nuget';
-            exec('nuget install docfx.console', function (err, data) {
+            exec(nugetPath + ' install docfx.console', function (err, data) {
                 if (err) {
                     console.error(err);
                     return;
