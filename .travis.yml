@@ -1,0 +1,10 @@
+language: csharp
+os:
+  - osx
+  - linux
+mono: latest
+dotnet: 2.1.4 
+install:
+  - nuget install docfx.console -OutputDirectory tools
+script:
+  - mono tools/docfx.console/tools/2.29/docfx.exe metadata **.csproj
