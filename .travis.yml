@@ -8,4 +8,4 @@ install:
   - nuget install docfx.console -OutputDirectory tools
 script:
   - ls ./tools/
-  - mono tools/docfx.console/tools/2.29/docfx.exe metadata
+  - mono tools/docfx.console.2.30.0/tools/docfx.exe metadata
