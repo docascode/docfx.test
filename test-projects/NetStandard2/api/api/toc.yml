@@ -1,0 +1,8 @@
+### YamlMime:TableOfContent
+- uid: NetStandard2
+  name: NetStandard2
+  items:
+  - uid: NetStandard2.Class1
+    name: Class1
+  - uid: NetStandard2.Enum
+    name: Enum

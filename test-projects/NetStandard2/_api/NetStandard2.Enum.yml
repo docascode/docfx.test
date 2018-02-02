@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: NetStandard2.Enum
+  commentId: T:NetStandard2.Enum
+  id: Enum
+  parent: NetStandard2
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Enum
+  nameWithType: Enum
+  fullName: NetStandard2.Enum
+  type: Enum
+  source:
+    remote:
+      path: test-projects/NetStandard2/Class1.cs
+      branch: master
+      repo: https://github.com/docascode/docfx.test.git
+    id: Enum
+    path: Class1.cs
+    startLine: 33
+  assemblies:
+  - NetStandard2
+  namespace: NetStandard2
+  summary: "\nEnum\n"
+  example: []
+  syntax:
+    content: public enum Enum
+    content.vb: Public Enum Enum
+  seealso:
+  - linkId: NetStandard2.Class1
+    commentId: T:NetStandard2.Class1
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+references:
+- uid: NetStandard2.Class1
+  commentId: T:NetStandard2.Class1
+  parent: NetStandard2
+  isExternal: false
+  name: Class1
+  nameWithType: Class1
+  fullName: NetStandard2.Class1
+- uid: NetStandard2
+  commentId: N:NetStandard2
+  isExternal: false
+  name: NetStandard2
+  nameWithType: NetStandard2
+  fullName: NetStandard2

@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: NetStandard2
+  commentId: N:NetStandard2
+  id: NetStandard2
+  children:
+  - NetStandard2.Class1
+  - NetStandard2.Enum
+  langs:
+  - csharp
+  - vb
+  name: NetStandard2
+  nameWithType: NetStandard2
+  fullName: NetStandard2
+  type: Namespace
+  assemblies:
+  - NetStandard2
+references:
+- uid: NetStandard2.Class1
+  commentId: T:NetStandard2.Class1
+  parent: NetStandard2
+  isExternal: false
+  name: Class1
+  nameWithType: Class1
+  fullName: NetStandard2.Class1
+- uid: NetStandard2.Enum
+  commentId: T:NetStandard2.Enum
+  isExternal: false
+  name: Enum
+  nameWithType: Enum
+  fullName: NetStandard2.Enum
+- uid: NetStandard2
+  commentId: N:NetStandard2
+  isExternal: false
+  name: NetStandard2
+  nameWithType: NetStandard2
+  fullName: NetStandard2
