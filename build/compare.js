@@ -20,18 +20,18 @@ module.exports = function () {
                 throw "Expected " + element.name + " while actual " + actual.name;
             }
             
-            var md5_expected = getMd5(element.path);
-            var md5_actual = getMd5(actual.path);
-            if (md5_expected !== md5_actual){
+            var hash_expected = getHash(element.path);
+            var hash_actual = getHash(actual.path);
+            if (hash_expected !== hash_actual){
                 throw "Actual content for " + actual.path + " is differ from expected: " + fs.readFileSync(actual.Path, { encoding: 'utf8'});
             }
         }
     }
 
-    function getMd5(file) {
+    function getHash(file) {
         var data = fs.readFileSync(file);
         var crypto = require('crypto');
-        crypto.createHash('md5').update(data).digest("hex");
+        crypto.createHash('sha256').update(data).digest("hex");
     }
 
     function getFiles(dir) {
